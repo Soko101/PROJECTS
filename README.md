@@ -1,5 +1,3 @@
-# PROJECTS
-- This Repository contains all projects that Soko has undertaken during his undergraduate 
-- Period at St. Lawrence University
-- Some projects are personal endeavors while others are course assigned
-- Sample Projects include STOCK MARKET, DEBUGGING and Coverage
+# PROJECT
+- This is a stock market simulation project done in Java
+- compares prices and quantities between buyers and sellers
