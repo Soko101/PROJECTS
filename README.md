@@ -33,7 +33,7 @@ The provided code represents a simple stock market simulation in Java. Let's bre
    - It enforces the implementation of the `isSell` method and the `compareTo` method to prioritize orders for matching.
 
 7. **Config Class:**
-   - The `Config` class is not included in the provided code, but it's mentioned in the `StockMarketSimulation` constructor as a way to configure the simulation. It likely holds various simulation settings.
+   - The `Config` class is mentioned in the `StockMarketSimulation` constructor as a way to configure the simulation. It likely holds various simulation settings.
 
 8. **Input Data:**
    - The testing files contain input data for the simulation, specifying the number of traders, stocks, and a sequence of buy and sell orders with timestamps, prices, and quantities.
