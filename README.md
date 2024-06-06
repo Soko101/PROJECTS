@@ -1,10 +1,12 @@
 # PROJECT
 - Utilizes Priority Queue Algorithm to sort out orders
-The provided code represents a simple stock market simulation in Java. Let's break down the architecture of the code:
+  
+- The provided code represents a simple stock market simulation in Java. Let's break down the architecture of the code:
 
 1. **StockMarketSimulation Class:**
    - This is the main class responsible for running the stock market simulation.
-   - It contains private data members such as `stocks` (a list of stocks), `traders` (a list of traders), `config` (configuration settings), and other variables to manage the simulation.
+   - It contains private data members such as `stocks` (a list of stocks), `traders` (a list of traders), `config`
+   - (configuration settings), and other variables to manage the simulation.
    - The constructor (`public StockMarketSimulation(Config c)`) initializes the simulation based on the provided configuration.
    - The `simulate()` method is the core of the simulation. It processes orders, matches buy and sell orders, and tracks various statistics.
 
@@ -40,4 +42,6 @@ The provided code represents a simple stock market simulation in Java. Let's bre
 
 The simulation's main flow involves reading and processing these input orders, matching buy and sell orders, updating statistics, and calculating the median prices. The program can be controlled with various command-line options, such as `--verbose` for detailed output and `--median` for printing median prices at specific times.
 
-In summary, the architecture of the code represents a basic stock market simulation system, including traders, stocks, buy and sell orders, and tracking of trading statistics. It provides the foundation for simulating stock market behavior based on the input data and configuration settings.
+In summary, the architecture of the code represents a basic stock market simulation system, including traders, 
+stocks, buy and sell orders, and tracking of trading statistics. It provides the foundation for simulating 
+stock market behavior based on the input data and configuration settings.
